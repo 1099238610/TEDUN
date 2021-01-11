@@ -2,7 +2,7 @@
 document.writeln("<hearder>");
 document.writeln("    <!--nav start-->");
 document.writeln("    <nav class=\'navbar sticky-top navbar-expand-md bg-light\'>");
-document.writeln("        <img src=\'/NewTedun/image/logo/tedunlogo.png\' class=\'img-fluid rounded float-left\' alt=\'...\'>");
+document.writeln("        <img src=\'/TEDUN/image/logo/tedunlogo.png\' class=\'img-fluid rounded float-left\' alt=\'...\'>");
 document.writeln("        <div class=\'container d-flex flex-column flex-md-row justify-content-between\'>");
 document.writeln("            <ul class=\'nav justify-content-center flex-column flex-sm-row ml-5\'>");
 document.writeln("                <li class=\'nav-item py-3 px-3 d-none d-md-inline-block\'>");
@@ -11,7 +11,7 @@ document.writeln("                </li>");
 document.writeln("                <li class=\'nav-item dropdown py-3 px-3 d-none d-md-inline-block\' >");
 document.writeln("                    <a class=\'nav-link dropdown-toggle\' data-toggle=\'dropdown\' href=\'#\' role=\'button\' aria-haspopup=\'true\' aria-expanded=\'false\'>公司产品</a>");
 document.writeln("                    <div class=\'dropdown-menu\'>");
-document.writeln("                        <a class=\'dropdown-item\' href=\'/NewTedun/product/trizip/index.html\'>直立锁边屋面系统</a>");
+document.writeln("                        <a class=\'dropdown-item\' href=\'/TEDUN/product/trizip/index.html\'>直立锁边屋面系统</a>");
 document.writeln("                        <a class=\'dropdown-item\' href=\'#\'>立边咬合屋面系统</a>");
 document.writeln("                        <a class=\'dropdown-item\' href=\'#\'>平锁扣系列</a>");
 document.writeln("                        <div class=\'dropdown-divider\'></div>");
