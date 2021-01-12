@@ -1,7 +1,6 @@
-
 document.writeln("<hearder>");
 document.writeln("    <!--nav start-->");
-document.writeln("    <nav class=\'navbar sticky-top navbar-expand-md bg-light\'>");
+document.writeln("    <nav class=\'navbar sticky-top navbar-expand-md bg-light shadow\'>");
 document.writeln("        <img src=\'/TEDUN/image/logo/tedunlogo.png\' class=\'img-fluid rounded float-left\' alt=\'...\'>");
 document.writeln("        <div class=\'container d-flex flex-column flex-md-row justify-content-between\'>");
 document.writeln("            <ul class=\'nav justify-content-center flex-column flex-sm-row ml-5\'>");
