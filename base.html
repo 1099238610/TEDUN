@@ -9,56 +9,68 @@
     </style>
 </head>
 <body>
-<hearder>
-    <!--nav start-->
-    <nav class="navbar navbar-expand-md sticky-top  bg-light nav-masthead justify-content-center">
+<!--nav start-->
+<nav class='navbar sticky-top navbar-expand-lg bg-light shadow'>
+    <style>
+        .nav_text a{
+            font-size: 18px;
+            color: gray;
+            font-weight: bold;
+        }
+    </style>
 
-        <img src="image/logo/tedunlogo.png" class="img-fluid rounded float-left" alt="...">
-        <style type="text/css">
-            .navbar_inline_space li{
-                margin-left: 40px;
-            }
-            blue{
-                background-color: lightblue;
-            }
-        </style>
-        <div class="container" style="padding-left: 5rem">
-            <ul class="nav navbar-nav">
-                <li class="nav-item py-3 px-3 d-none d-md-inline-block active" onmouseover = "this.className += 'bule'">
-                    <a class="nav-link " href="#" >简介</a>
-                </li>
-                <li class="nav-item dropdown py-3 px-3 d-none d-md-inline-block " >
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">公司产品</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">直立锁边屋面系统</a>
-                        <a class="dropdown-item" href="#">立边咬合屋面系统</a>
-                        <a class="dropdown-item" href="#">古典屋面系列</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">配件</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown py-3 px-3  d-none d-md-inline-block" >
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">关于公司</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">公司介绍</a>
-                        <a class="dropdown-item" href="#">公司环境</a>
-                        <a class="dropdown-item" href="#">业务介绍</a>
-                    </div>
-                </li>
-                <li class="nav-item py-3 px-3 d-none d-md-inline-block" >
-                    <a class="nav-link" href="#">联系我们</a>
-                </li>
-                <li class="nav-item py-3 px-3 d-none d-md-inline-block" >
-                    <a class="nav-link" href="#">公司概况</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--nav end-->
-</hearder>
+    <style>
+        .li_space li{
+            margin-left: 50px;
+        }
+    </style>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_menu" aria-controls="nav_menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="/TEDUN/index.html" class="navbar-brand ml-5"><img src="" alt=""><img src='/TEDUN/image/logo/tedunlogo_small.png' class='img' alt='...'></a>
+    <div class="collapse navbar-collapse w-100 li_space" id="nav_menu">
+        <ul class='navbar-nav ml-5 nav_text' >
+            <li class='nav-item py-3 px-3 d-none d-md-inline-block'>
+                <a class='nav-link ' href='#' >简介</a>
+            </li>
+            <li class='nav-item dropdown py-3 px-3 d-none d-md-inline-block' >
+                <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>公司产品</a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='/TEDUN/product/trizip/index.html'>直立锁边屋面系统</a>
+                    <a class='dropdown-item' href='#'>立边咬合屋面系统</a>
+                    <a class='dropdown-item' href='#'>平锁扣系列</a>
+                    <div class='dropdown-divider'></div>
+                    <a class='dropdown-item' href='#'>配件</a>
+                </div>
+            </li>
+            <li class='nav-item dropdown py-3 px-3  d-none d-md-inline-block' >
+                <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' role='button' aria-haspopup='true' aria-expanded='false'>关于公司</a>
+                <div class='dropdown-menu'>
+                    <a class='dropdown-item' href='#'>公司介绍</a>
+                    <a class='dropdown-item' href='#'>公司环境</a>
+                    <a class='dropdown-item' href='#'>业务介绍</a>
+                </div>
+            </li>
+            <li class='nav-item py-3 px-3 d-none d-md-inline-block' >
+                <a class='nav-link' href='#'>联系我们</a>
+            </li>
+            <li class='nav-item py-3 px-3 d-none d-md-inline-block' >
+                <a class='nav-link' href='#'>公司概况</a>
+            </li>
+        </ul>
 
+    </div>
+    <a href="https://hztyt.en.alibaba.com/" class="float-right mx-5" ><img src="/TEDUN/image/logo/alibaba.png" alt="" height="21px" width="85px"></a>
+    <a href="https://hztedun.en.made-in-china.com/" class="float-right mx-5" ><img src="/TEDUN/image/logo/mdChina_logo.png" alt="" height="21px" width="85px"></a>
+</nav>
+<!--nav end-->
 
+<br><br><br>
+<script src="/TEDUN/js/breadcrumb.js"></script>
+<script src="/TEDUN/js/jquery-3.5.1.js"></script>
+<script src="/TEDUN/js/bootstrap.min.js"></script>
 
 </body>
-<script src="js/menu.js"></script>
+
+
 </html>
